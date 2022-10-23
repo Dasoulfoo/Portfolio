@@ -14,7 +14,7 @@ body {
     background-color: rgb(151 178 232);
 }
 
-/* apply styles to <header> */
+/* <header> */
 header {
     padding: 20px 35px;
     background-color: black;
@@ -57,10 +57,7 @@ section {
     padding: 10px;
 }
 
-
-
-
-/*Add employees photo*/
+/*employee photo*/
 .image2 {
     position: relative;
     top: 1px;
@@ -72,10 +69,7 @@ section {
 
 }
 
-
-
-
-/*Work section style*/
+/*Work style*/
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -151,10 +145,6 @@ section {
     border: solid 1px var(--primary-color);
 }
 
-
-
-
-
 figcaption {
     position: absolute;
     margin-left: 5px;
@@ -204,8 +194,7 @@ figcaption {
     grid-row-end: 5;
 }
 
-
-/*About section style*/
+/*About me style*/
 .vl-border3 {
     border-right: 3px solid #39a6b2;
     height: 100px;
@@ -236,9 +225,7 @@ figcaption {
     padding-bottom: 2px;
 }
 
-
-
-/*Code for media query*/
+/*media query*/
 
 @media screen and (max-width: 980px) {
     header {
